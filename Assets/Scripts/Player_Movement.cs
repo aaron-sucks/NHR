@@ -7,7 +7,7 @@ public class First_Person_Movement : MonoBehaviour
     private Vector2 PlayerMouseInput;
     private bool Sneaking = false;
     private float xRotation;
-
+    /*lol*/
     [Header("Components Needed")]
     [SerializeField] private Transform PlayerCamera;
     [SerializeField] private CharacterController Controller;
@@ -22,12 +22,15 @@ public class First_Person_Movement : MonoBehaviour
     [Header("Sneaking")]
     [SerializeField] private bool Sneak = false;
     [SerializeField] private float SneakSpeed;
-
+    private float lol;
+    /**/
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
-
+    //blah blah blah
+    //oaubfgoiuasbg
+    //
     // Update is called once per frame
     void Update()
     {
