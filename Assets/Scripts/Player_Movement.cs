@@ -22,7 +22,8 @@ public class First_Person_Movement : MonoBehaviour
     [Header("Sneaking")]
     [SerializeField] private bool Sneak = false;
     [SerializeField] private float SneakSpeed;
-
+    //boobs
+    //dick
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
